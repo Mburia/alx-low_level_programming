@@ -1,17 +1,22 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- *main-program entry point for execution.
- *Return:0-success
+ * main - main entry point
+ *
+ * Return: Always return (0)
  */
 int main(void)
 {
-	char i[] = "Holberton";
-	int j;
-
-	for (j = 0; j < 9; j++)
-	{
-		_putchar(i[j]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
+
 	return (0);
 }
